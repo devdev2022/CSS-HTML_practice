@@ -11,15 +11,60 @@
           padding-bottom:20px;
           margin:0px;
         }
+
+        a{
+          text-decoration-line:none;
+        }
+        
+        ul {
+          margin:0;
+          font-size:20px;
+          line-height:50px;
+          border-right: 1px solid gray;
+        }
+
+        <!--본문-->
         body{
           margin:0px;
         }
+
+        #main{
+          display:grid;
+          grid-template-columns: 200px 1fr 150px;
+        }
+
+        #right_block{
+          border-left: 1px solid gray;
+          text-align:center;
+        }
+        #center_block{
+          padding-left:10px
+        }
+
+
+        
+
       </style>
   </head>
   <body>
     <h1>Compton</h1>
-    <ul>
-      
-    </ul>
+    <div id="main">
+      <div>
+        <ul>
+          <li><a href=Kendrick.html>Kendrick Lamar</a></li>
+          <li><a href=Tyga.html>Tyga</a></li>
+          <li><a href=Dre.html>Dr Dre</a></li>
+        </ul>
+      </div>
+
+      <div id="center_block">
+        <h2>Kendrick Lamar</h2>
+      </div>
+
+      <div id="right_block">
+        <h3>핫 게시글</h3>
+      </div>
+        
+    </div>
   </body>
 </html>
