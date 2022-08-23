@@ -1,0 +1,45 @@
+h1 {
+    text-align:center;
+    font-size:60px;
+    border-bottom: 1px solid gray;
+    padding-bottom:20px;
+    margin:0px;          
+  }
+  
+  a{
+    text-decoration-line:none;
+  }
+  
+  ul {
+    margin:0;
+    font-size:20px;
+    line-height:50px;
+  }
+
+  <!--본문-->
+  body{
+    margin:0px;
+  }
+
+  #main{
+    display:grid;
+    grid-template-columns: 200px 1fr 150px;
+  }
+
+  #middle_block{
+    padding-left:10px;
+    border-left: 1px solid gray;
+  }
+
+  #imagebox{
+    text-align:center;
+  }
+
+  #right_block{
+    text-align:center;
+    border-left: 1px solid gray;
+  }
+
+  @media(max-width:1000px) {
+      #right_block{display:none;}
+    }
